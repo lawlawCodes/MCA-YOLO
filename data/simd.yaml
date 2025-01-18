@@ -1,0 +1,12 @@
+train: ../datasets/simd/images/train
+
+val: ../datasets/simd/images/val
+
+
+
+# number of classes
+nc: 15
+
+# class names
+
+names: [ 'car','truck','van','longvehicle','bus','airliner','propeller','trainer','chartered','fighter','other','stairtruck','pushbacktruck','helicopter','boat' ]
