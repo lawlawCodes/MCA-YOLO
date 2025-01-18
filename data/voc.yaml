@@ -1,0 +1,9 @@
+train: VOC07+12trainval.txt
+val: VOC2007test.txt
+
+# Classes
+nc: 20  # number of classes
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
+        'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']  # class names
+
+
