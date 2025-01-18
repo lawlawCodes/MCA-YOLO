@@ -3,5 +3,8 @@ Paper：https://ieeexplore.ieee.org/document/10843218
 
 Train：
 python train.py --cfg cfg/mcayolo.yaml --data data/simd.yaml 
+
 Test：
-python test.py --cfg cfg/mcayolo.yaml --data data/simd.yaml 
+python test.py --weights mcayolo_simd.pt --data data/simd.yaml 
+
+
