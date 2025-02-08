@@ -1,18 +1,28 @@
 
 ## MCA-YOLO: A Robust and Efficient Multi-Scenario Object Detection Network on Edge Devices
+
 An elaborately designed MCA-YOLO model is proposed in this work, which features a novel neck structure, HAN, incorporating the MSPP, G-ELAN block, and GC module to enhance learning capability.
+
 ![image](utils/MCAYOLO.png)
 
 To establish a real-time intelligent object detection system for real-world applications, we deploy the trainedMCA-YOLO on a Jetson Xavier NX edge computer embedded in the Prometheus450 drone.
+
 ![image](utils/UAV.png)
 
 ## Data
+
 We validate its effectiveness on VOC, COCO, SIMD, and VisDrone datasets.
-VOC:
+
+* VOC:
+
 ![image](utils/VOC.png)
-COCO:
+
+* COCO:
+
 ![image](utils/COCO.png)
-SIMD and VisDrone:
+
+* SIMD and VisDrone:
+
 ![image](utils/RS.png)
 
 
@@ -23,13 +33,13 @@ https://ieeexplore.ieee.org/document/10843218
 
 ## Usage
 
-Train:
+* Train:
 
 ```sh
 python train.py --cfg cfg/mcayolo.yaml --data data/simd.yaml
 ```
 
-Test:
+* Test:
 
 ```sh
 python test.py --weights mcayolo_simd.pt --data data/simd.yaml
@@ -53,4 +63,7 @@ Z. Chen, A. Luo, L. Ding, J. Zheng and Z. Huang, "A Robust and Efficient Multisc
 
 
 
-
+[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[wiki]: https://github.com/yourname/yourproject/wiki
