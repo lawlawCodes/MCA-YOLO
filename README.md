@@ -1,9 +1,9 @@
 
 ## MCA-YOLO: A Robust and Efficient Multi-Scenario Object Detection Network on Edge Devices
 An elaborately designed MCA-YOLO model is proposed in this work, which features a novel neck structure, HAN, incorporating the MSPP, G-ELAN block, and GC module to enhance learning capability.
-![image](https://github.com/CZZZHuan/MCA-YOLO/images/MCAYOLO.png)
+![image](MCA-YOLO/utils/MCAYOLO.png)
 
-![image]()
+![image](MCA-YOLO/utils/COCO.png)
 ## Paper
 
 https://ieeexplore.ieee.org/document/10843218
