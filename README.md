@@ -3,7 +3,16 @@
 An elaborately designed MCA-YOLO model is proposed in this work, which features a novel neck structure, HAN, incorporating the MSPP, G-ELAN block, and GC module to enhance learning capability.
 ![image](utils/MCAYOLO.png)
 
+To establish a real-time intelligent object detection system for real-world applications, we deploy the trainedMCA-YOLO on a Jetson Xavier NX edge computer embedded in the Prometheus450 drone.
+![image](utils/UAV.png)
+
+## Data
+We validate its effectiveness on VOC, COCO, SIMD, and VisDrone datasets.
+![image](utils/VOC.png)
 ![image](utils/COCO.png)
+![image](utils/RS.png)
+
+
 ## Paper
 
 https://ieeexplore.ieee.org/document/10843218
