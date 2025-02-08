@@ -1,16 +1,7 @@
-# MCA-YOLO: A Robust and Efficient Multi-Scenario Object Detection Network on Edge Devices
-Paper：https://ieeexplore.ieee.org/document/10843218
 
-Train：
-python train.py --cfg cfg/mcayolo.yaml --data data/simd.yaml 
+## MCA-YOLO: A Robust and Efficient Multi-Scenario Object Detection Network on Edge Devices
 
-Test：
-python test.py --weights mcayolo_simd.pt --data data/simd.yaml 
-
-
-# MCA-YOLO: A Robust and Efficient Multi-Scenario Object Detection Network on Edge Devices
-
-# Paper
+## Paper
 
 https://ieeexplore.ieee.org/document/10843218
 
@@ -48,9 +39,3 @@ Z. Chen, A. Luo, L. Ding, J. Zheng and Z. Huang, "A Robust and Efficient Multisc
 
 
 
-
-
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
